@@ -36,3 +36,11 @@
         transform: rotate(360deg);
     }
 }
+
+.side-nav {
+    color: white;
+}
+
+.side-nav-margin {
+    margin-top: 65px;
+}

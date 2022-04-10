@@ -7,9 +7,9 @@ import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import { Link } from 'react-router-dom';
+import SideNav from './SideNav';
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
@@ -65,7 +65,7 @@ export default function ButtonAppBar() {
                         aria-label="menu"
                         sx={{ mr: 2 }}
                     >
-                        <MenuIcon />
+                        <SideNav />
                     </IconButton>
                     <Typography
                         variant="h6"
