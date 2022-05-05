@@ -102,7 +102,7 @@ function SignUp() {
               placeholder="Enter password"
               onChange={handleChange}
               name="password"
-          value={state.password}
+              value={state.password}
             />
           </div>
 
